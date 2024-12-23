@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new offer</title>
+</head>
+<body>
+    <h1>Add new offer</h1>
+    <form action="/offers" method="post">
+        <label>company name : </label> <input type="text" name="offer[companyName]" > <br><br>
+        <label>role title : </label> <input type="text" name="offer[title]" > <br><br>
+        <label>location : </label> <input type="text" name="offer[location]" ><br><br>
+        <label>type : </label> <input type="text" name="offer[type]" ><br><br>
+        <label>salary : </label> <input type="number" name="offer[salary]" ><br><br>
+        <label>apply till : </label> <input type="date" name="offer[last_date]" ><br><br>
+        <label>Criteria : </label><br> 
+        <textarea name="offer[criteria]"></textarea>
+        <br>
+        <button>submit</button>
+    </form>   
+</body>
+
+</html>

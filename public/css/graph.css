@@ -1,0 +1,20 @@
+.graph-1 {
+    background: #dddff6;
+    border-radius: 39px;
+    width: 588px;
+    height: 270px;
+    position: absolute;
+    left: 288px;
+    top: 263px;
+    box-shadow:8px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .base {
+    background: #ffffff;
+    border-radius: 15px;
+    width: 167px;
+    height: 209px;
+    position: relative;
+    box-shadow: 0px 23px 28.6px 0px rgba(0, 0, 0, 0.03);
+    margin-left: 21px;
+    margin-top: 40px;
+  }

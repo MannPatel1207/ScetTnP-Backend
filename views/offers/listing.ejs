@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing</title>
+    <style>
+        table,td{
+            border : 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <% for(offer of offers) {%>
+            <tr>
+                <td><%= offer %>
+                    <form action="/offers/<%= offer._id %>?_method=DELETE" method="post">
+                        <button>delete</button>
+                    </form>
+                </td>
+                
+            </tr>
+        <% } %>
+    </table>
+</body>
+</html>
+
+<!-- data retrived in offers array -->

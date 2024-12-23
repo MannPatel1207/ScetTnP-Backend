@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+*
+{
+    background-color: #fafafa;
+    
+}
+
+.container
+{
+    display: flex;
+    height: 1440px;
+}
+.nav
+{   
+    background-color:rgba(164,172,239,0.34);
+    border: black;
+    max-width: 264px;
+    height: 1024px;
+    
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 00px 35px 35px 0px;;
+    
+}
+
+.logo
+{
+
+ height: 109px;
+ width: 109px;  
+ margin-top: 38;
+ margin-left: 5;
+ background-color: transparent;
+ border: black;
+ 
+}
+.scettext
+{
+  background-color: transparent;
+  margin-top: 23px;
+  margin-left: 10px;
+  height: 32px;
+  width: 117px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: normal;
+  
+}
+.logotext
+{
+    display: flex;
+    background-color: transparent;
+    
+}
+.text1
+{
+    background-color: transparent;
+    display : block;
+}
+
+.line-1 {
+    margin-top: 24px;
+    margin-left: 55px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 133px;
+    height: 0px;
+    position: absolute;
+    left: 109px;
+    top: 55px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+  }
+  .placement-portal {
+    margin-top: 25px;
+    margin-left: 55px;
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    left: 110px;
+    top: 60px;
+    width: 114px;
+    height: 54px;
+    background-color: transparent;
+  }
+  .scetbelowline {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 260px;
+    height: 0px;
+    position: absolute;
+    left: calc(50% - 105px);
+    top: 152px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+  }
+  .side-bar {
+    width: 229px;
+    height: 380px;
+    position: absolute;
+    left: 22px;
+    top: 210px;
+    background-color: transparent;
+  }
+ 

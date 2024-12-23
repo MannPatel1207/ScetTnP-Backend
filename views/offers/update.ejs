@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update</title>
+</head>
+<body>
+    <form action="/offers/<%= _id %>?_method=PATCH" method="post">
+        <label>Id : </label> <input type="text" name="id" value="<%= _id %>"> <br><br>
+        <label>title : </label> <input type="text" name="title" value="<%= title %>"> <br><br>
+        <label>location : </label> <input type="text" name="location" value="<%= location %>"><br><br>
+        <label>type : </label> <input type="text" name="type" value="<%= type %>"><br><br>
+        <label>salary : </label> <input type="number" name="salary" value="<%= salary %>"><br><br>
+        <label>apply till : </label> <input type="date" name="last_date" value="<%= last_date.toISOString().substr(0, 10) %>"><br><br>
+        <label>Criteria : </label><br> 
+        <% for(cri in criteria) { %>
+            <input type="text" name="criteria[<%= cri %>]" value="<%= cri %>"> <input type="text" value="<%= criteria[cri] %>"> <br>
+        <% } %>
+        <br>
+        <button>submit</button>
+    </form>   
+</body>
+</html>
